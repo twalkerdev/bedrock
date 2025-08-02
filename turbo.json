@@ -1,0 +1,19 @@
+{
+  "tasks": {
+    "lint": {
+      "dependsOn": ["lib#build"]
+    },
+    "build": {
+      "dependsOn": ["^build"]
+    },
+    "test": {
+      "dependsOn": ["^build"]
+    },
+    "test:coverage": {
+      "dependsOn": ["^build"]
+    },
+    "test:watch:coverage": {
+      "dependsOn": ["^build"]
+    }
+  }
+}

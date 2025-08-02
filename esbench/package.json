@@ -1,0 +1,19 @@
+{
+  "name": "@repo/esbench",
+  "private": true,
+  "version": "0.0.0",
+  "license": "MIT",
+  "type": "module",
+  "packageManager": "pnpm@10.13.1",
+  "scripts": {
+    "eslint": "eslint --max-warnings 0 .",
+    "benchmark": "esbench --config esbench.config.ts",
+    "typecheck": "tsc --noEmit",
+    "build:": "tsc"
+  },
+  "devDependencies": {
+    "esbench": "^0.8.0",
+    "eslint": "^9.32.0",
+    "typescript": "^5.9.2"
+  }
+}

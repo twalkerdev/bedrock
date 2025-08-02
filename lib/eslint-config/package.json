@@ -4,18 +4,20 @@
   "private": true,
   "license": "MIT",
   "type": "module",
-  "main": "./index.js",
   "exports": {
-    ".": "./index.js"
+    ".": {
+      "types": "./index.ts",
+      "default": "./dist/index.js"
+    }
   },
   "scripts": {
-    "lint": "eslint --max-warnings 0 ."
+    "lint": "eslint --max-warnings 0 .",
+    "build": "tsc"
   },
   "dependencies": {
     "@chance/eslint": "^1.1.0"
   },
   "devDependencies": {
-    "@lib/typescript-config": "workspace:*",
     "eslint": "^9.32.0"
   },
   "peerDependencies": {
