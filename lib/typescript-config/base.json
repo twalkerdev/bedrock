@@ -13,6 +13,7 @@
     "noUncheckedIndexedAccess": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
-    "target": "es2022"
+    "target": "es2022",
+    "types": ["node", "vitest/globals"]
   }
 }

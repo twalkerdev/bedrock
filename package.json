@@ -11,15 +11,21 @@
     "reset": "pnpm run clean && rm -rf node_modules",
     "format": "prettier --write .",
     "format:staged": "pretty-quick --staged",
-    "ci:publish": "pnpm publish -r"
+    "ci:publish": "pnpm publish -r",
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "test:watch:coverage": "vitest --coverage",
+    "version:stable": "changeset version",
+    "version:next": "changeset version --snapshot",
+    "version:check": "changeset status --since=main"
   },
   "devDependencies": {
     "@chance/eslint": "^1.1.0",
-    "@changesets/cli": "^2.29.5",
     "@eslint/js": "^9.32.0",
     "@eslint/json": "^0.13.1",
     "@eslint/markdown": "^7.1.0",
     "@types/node": "^24.1.0",
+    "@vitest/coverage-istanbul": "3.2.4",
     "eslint": "^9.32.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-jsonc": "^2.20.1",
@@ -29,7 +35,8 @@
     "pretty-quick": "^4.2.2",
     "tsup": "^8.5.0",
     "typescript": "^5.8.3",
-    "typescript-eslint": "^8.38.0"
+    "typescript-eslint": "^8.38.0",
+    "vitest": "^3.2.4"
   },
   "engines": {
     "node": ">=18"
@@ -37,5 +44,8 @@
   "lint-staged": {
     "*.{js,ts,tsx}": "eslint --quiet --fix --cache"
   },
-  "packageManager": "pnpm@10.13.1"
+  "packageManager": "pnpm@10.13.1",
+  "dependencies": {
+    "@changesets/cli": "^2.29.5"
+  }
 }
