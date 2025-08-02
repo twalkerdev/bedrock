@@ -1,5 +1,5 @@
 import { describe } from 'node:test';
-import { LinkedList } from './';
+import { LinkedList } from '.';
 
 describe('LinkedList', () => {
   it('should create an empty linked list', () => {

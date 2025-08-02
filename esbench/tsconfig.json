@@ -1,12 +1,15 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "dist",
     "strict": true,
     "declaration": true,
     "declarationMap": true,
     "esModuleInterop": true,
     "incremental": false,
     "isolatedModules": true,
+    "allowJs": true,
     "module": "es2022",
     "moduleResolution": "bundler",
     "noUncheckedIndexedAccess": true,
@@ -14,5 +17,6 @@
     "skipLibCheck": true,
     "target": "es2022",
     "types": ["node"]
-  }
+  },
+  "exclude": ["node_modules", "dist"]
 }

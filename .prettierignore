@@ -1,5 +1,6 @@
 .vscode
 node_modules
+lib/eslint-config/node_modules
 .yarn
 dist
 coverage
@@ -9,3 +10,4 @@ yarn.lock
 *.log*
 .DS_Store
 *.pem
+.turbo

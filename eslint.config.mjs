@@ -4,10 +4,10 @@ import { globals } from '@chance/eslint/globals';
 
 /** @type {import("eslint").Linter.Config[]} */
 export default [
-  { ...js.getConfig({ ...globals.node, ...globals.browser }) },
+  { ...js.getConfig({ ...globals.node }) },
   typescript.config,
   {
-    ignores: ['dist/**'],
+    ignores: ['dist/**', 'node_modules/**', 'coverage/**', 'build/**'],
     rules: {
       'prefer-const': ['warn', { destructuring: 'all' }],
     },
