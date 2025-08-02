@@ -36,6 +36,7 @@
   "packageManager": "pnpm@10.13.1",
   "devDependencies": {
     "@lib/typescript-config": "workspace:*",
+    "@lib/eslint-config": "workspace:*",
     "eslint": "^9.32.0",
     "tsup": "^8.5.0",
     "typescript": "^5.9.2"

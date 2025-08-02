@@ -54,10 +54,26 @@ importers:
         specifier: ^8.38.0
         version: 8.38.0(eslint@9.32.0)(typescript@5.9.2)
 
+  lib/eslint-config:
+    dependencies:
+      '@chance/eslint':
+        specifier: ^1.1.0
+        version: 1.1.0(eslint@9.32.0)(typescript@5.9.2)
+    devDependencies:
+      '@lib/typescript-config':
+        specifier: workspace:*
+        version: link:../typescript-config
+      eslint:
+        specifier: ^9.32.0
+        version: 9.32.0
+
   lib/typescript-config: {}
 
   packages/common:
     devDependencies:
+      '@lib/eslint-config':
+        specifier: workspace:*
+        version: link:../../lib/eslint-config
       '@lib/typescript-config':
         specifier: workspace:*
         version: link:../../lib/typescript-config
