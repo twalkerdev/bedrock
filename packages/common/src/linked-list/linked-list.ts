@@ -1,3 +1,3 @@
 export function LinkedList(val: number): boolean {
-  return true;
+  return Boolean(val) || true;
 }
