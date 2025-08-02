@@ -54,8 +54,13 @@ importers:
         specifier: ^8.38.0
         version: 8.38.0(eslint@9.32.0)(typescript@5.9.2)
 
+  lib/typescript-config: {}
+
   packages/common:
     devDependencies:
+      '@lib/typescript-config':
+        specifier: workspace:*
+        version: link:../../lib/typescript-config
       eslint:
         specifier: ^9.32.0
         version: 9.32.0

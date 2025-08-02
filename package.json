@@ -13,8 +13,6 @@
     "format:staged": "pretty-quick --staged",
     "ci:publish": "pnpm publish -r"
   },
-  "keywords": [],
-  "author": "",
   "devDependencies": {
     "@chance/eslint": "^1.1.0",
     "@changesets/cli": "^2.29.5",
