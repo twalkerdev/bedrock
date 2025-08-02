@@ -5,7 +5,7 @@
   "type": "module",
   "packageManager": "pnpm@10.13.1",
   "scripts": {
-    "lint": "pnpm -r run lint",
+    "lint": "pnpx eslint",
     "lint:staged": "lint-staged",
     "clean": "pnpm -r run clean",
     "reset": "pnpm run clean && rm -rf node_modules",

@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "lint": "pnpm -r run lint",
+    "lint": "pnpx eslint",
     "lint:staged": "lint-staged",
     "build": "turbo run build",
     "clean": "pnpm -r run clean",

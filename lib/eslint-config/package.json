@@ -12,7 +12,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "lint": "pnpm -r run lint",
+    "lint": "pnpm eslint . --ext .ts",
     "lint:staged": "lint-staged",
     "clean": "pnpm -r run clean",
     "reset": "pnpm run clean && rm -rf node_modules",
