@@ -1,0 +1,77 @@
+{
+	"v": 5,
+	"entries": {
+		"configure-your-project--docs": {
+			"id": "configure-your-project--docs",
+			"title": "Configure your project",
+			"name": "Docs",
+			"importPath": "./packages/components/stories/Configure.mdx",
+			"storiesImports": [],
+			"type": "docs",
+			"tags": ["dev", "test", "unattached-mdx"]
+		},
+		"example-button--docs": {
+			"id": "example-button--docs",
+			"title": "Example/Button",
+			"name": "Docs",
+			"importPath": "./packages/components/stories/Button.stories.ts",
+			"type": "docs",
+			"tags": ["dev", "test", "autodocs"],
+			"storiesImports": []
+		},
+		"example-button--primary": {
+			"type": "story",
+			"id": "example-button--primary",
+			"name": "Primary",
+			"title": "Example/Button",
+			"importPath": "./packages/components/stories/Button.stories.ts",
+			"componentPath": "./packages/components/stories/Button.tsx",
+			"tags": ["dev", "test", "autodocs"]
+		},
+		"example-button--secondary": {
+			"type": "story",
+			"id": "example-button--secondary",
+			"name": "Secondary",
+			"title": "Example/Button",
+			"importPath": "./packages/components/stories/Button.stories.ts",
+			"componentPath": "./packages/components/stories/Button.tsx",
+			"tags": ["dev", "test", "autodocs"]
+		},
+		"example-button--large": {
+			"type": "story",
+			"id": "example-button--large",
+			"name": "Large",
+			"title": "Example/Button",
+			"importPath": "./packages/components/stories/Button.stories.ts",
+			"componentPath": "./packages/components/stories/Button.tsx",
+			"tags": ["dev", "test", "autodocs"]
+		},
+		"example-button--small": {
+			"type": "story",
+			"id": "example-button--small",
+			"name": "Small",
+			"title": "Example/Button",
+			"importPath": "./packages/components/stories/Button.stories.ts",
+			"componentPath": "./packages/components/stories/Button.tsx",
+			"tags": ["dev", "test", "autodocs"]
+		},
+		"example-image--docs": {
+			"id": "example-image--docs",
+			"title": "Example/Image",
+			"name": "Docs",
+			"importPath": "./packages/components/stories/Image.stories.ts",
+			"type": "docs",
+			"tags": ["dev", "test", "autodocs"],
+			"storiesImports": []
+		},
+		"example-image--primary": {
+			"type": "story",
+			"id": "example-image--primary",
+			"name": "Primary",
+			"title": "Example/Image",
+			"importPath": "./packages/components/stories/Image.stories.ts",
+			"componentPath": "./packages/components/design/src/components/image/Image.tsx",
+			"tags": ["dev", "test", "autodocs"]
+		}
+	}
+}

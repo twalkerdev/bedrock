@@ -1,4 +1,4 @@
 // @ts-check
-import { configs } from './index';
+import { configs } from "./index";
 
 export default configs;

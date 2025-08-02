@@ -1,10 +1,10 @@
-import { defineConfig } from 'esbench/host';
+import { defineConfig } from "esbench/host";
 
 export default defineConfig({
-  toolchains: [
-    {
-      include: ['./benchmark/**/*.js'],
-    },
-  ],
-  logLevel: 'debug',
+	toolchains: [
+		{
+			include: ["./benchmark/**/*.js"],
+		},
+	],
+	logLevel: "debug",
 });
