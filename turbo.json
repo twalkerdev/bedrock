@@ -1,19 +1,30 @@
 {
   "tasks": {
     "lint": {
-      "dependsOn": ["lib#build"]
+      "dependsOn": ["^build"]
+    },
+    "format": {
+      "dependsOn": ["^format"],
+      "cache": false
     },
     "build": {
-      "dependsOn": ["^build"]
+      "dependsOn": ["^build"],
+      "outputs": ["dist/**"]
     },
     "test": {
-      "dependsOn": ["^build"]
+      "dependsOn": ["^test"]
+    },
+    "test:watch": {
+      "cache": false,
+      "persistent": true
     },
     "test:coverage": {
-      "dependsOn": ["^build"]
+      "dependsOn": ["^test"],
+      "outputs": ["coverage/**"]
     },
-    "test:watch:coverage": {
-      "dependsOn": ["^build"]
+    "benchmark": {
+      "dependsOn": ["esbench#benchmark"],
+      "cache": false
     }
   }
 }

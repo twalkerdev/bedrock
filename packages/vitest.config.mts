@@ -9,7 +9,7 @@ export default defineConfig({
       provider: 'istanbul',
       reporter: ['text', 'html'],
       include: ['**/*.ts'],
-      exclude: ['node_modules', 'dist', 'lib', 'packages/common/src/index.ts'],
+      exclude: ['node_modules', 'dist', 'lib'],
       cleanOnRerun: true,
       all: true,
     },

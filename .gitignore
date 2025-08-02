@@ -1,15 +1,11 @@
 *.log*
 .DS_Store
-
+.turbo
 dist
-
 .cache
-
 coverage
-
 node_modules
 .pnp.cjs
-
 # Editor-specific
 .vscode/
 .idea/
