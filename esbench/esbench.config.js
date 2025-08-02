@@ -1,4 +1,4 @@
-import { defineConfig, ProcessExecutor } from 'esbench/host';
+import { defineConfig } from 'esbench/host';
 
 export default defineConfig({
   toolchains: [
