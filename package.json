@@ -1,0 +1,42 @@
+{
+  "name": "bedrock",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "lint": "pnpm -r run lint",
+    "lint:staged": "lint-staged",
+    "build": "pnpm -r --parallel --filter \"./packages/**/*\" run build",
+    "clean": "pnpm -r run clean",
+    "reset": "pnpm run clean && rm -rf node_modules",
+    "format": "prettier --write .",
+    "format:staged": "pretty-quick --staged",
+    "ci:publish": "pnpm publish -r"
+  },
+  "keywords": [],
+  "author": "",
+  "devDependencies": {
+    "@chance/eslint": "^1.1.0",
+    "@changesets/cli": "^2.29.5",
+    "@eslint/js": "^9.32.0",
+    "@eslint/json": "^0.13.1",
+    "@eslint/markdown": "^7.1.0",
+    "@types/node": "^24.1.0",
+    "eslint": "^9.32.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-jsonc": "^2.20.1",
+    "eslint-plugin-prettier": "^5.5.3",
+    "prettier": "^3.6.2",
+    "pretty-quick": "^4.2.2",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.38.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx}": "eslint --quiet --fix --cache"
+  },
+  "packageManager": "pnpm@10.13.1"
+}
