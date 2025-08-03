@@ -27,3 +27,36 @@ This is a template to create a react component libraries with Vite
 - "storybook": run the storybook
 ![alt text](image-1.png)
 - "test:ui": run the vitest
+
+``` json
+{
+  "tasks": {
+    "lint": {
+      "dependsOn": ["^build"]
+    },
+    "format": {
+      "dependsOn": ["^format"],
+      "cache": false
+    },
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": ["dist/**"]
+    },
+    "test": {
+      "dependsOn": ["^test"]
+    },
+    "test:watch": {
+      "cache": false,
+      "persistent": true
+    },
+    "test:coverage": {
+      "dependsOn": ["^test"],
+      "outputs": ["coverage/**"]
+    },
+    "benchmark": {
+      "dependsOn": ["esbench#benchmark"],
+      "cache": false
+    }
+  }
+}
+```

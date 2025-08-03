@@ -1,0 +1,6 @@
+{
+	"type": "commonjs",
+	"devDependencies": {
+		"plop": "^4.0.1"
+	}
+}
