@@ -1,4 +1,0 @@
-packages:
-  - 'turbo/*'
-  - 'turbo/generators/*'
-  - 'packages/components/*'
