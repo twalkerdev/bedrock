@@ -8,6 +8,7 @@ const config: StorybookConfig = {
   stories: [
     '../packages/components/__stories__/**/*.mdx',
     '../packages/components/__stories__/**/*.stories.@(js|jsx|mjs|ts|tsx)',
+    '../packages/ex-shape/src/**/*.stories.@(js|jsx|mjs|ts|tsx)',
   ],
   addons: [
     getAbsolutePath('@storybook/addon-onboarding'),

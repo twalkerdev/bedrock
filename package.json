@@ -8,7 +8,8 @@
     "README.md"
   ],
   "imports": {
-    "#components/*": "./packages/components/*"
+    "#components/*": "./packages/components/*",
+    "#ex-shape/*": "./packages/ex-shape/src/*"
   },
   "exports": {
     ".": {
