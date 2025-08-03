@@ -1,0 +1,295 @@
+{
+  "version": "6.0",
+  "nxVersion": "21.3.11",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "README.md",
+        "hash": "13449082634947968131"
+      },
+      {
+        "file": "package.json",
+        "hash": "18272324029534212055"
+      },
+      {
+        "file": "generators/package.json",
+        "hash": "15840856038074683776"
+      },
+      {
+        "file": ".stylelintrc.json",
+        "hash": "238046496496012257"
+      },
+      {
+        "file": "generators/example-component/package.json",
+        "hash": "11647089372725074042"
+      },
+      {
+        "file": ".prettierrc.yaml",
+        "hash": "16038881130133984595"
+      },
+      {
+        "file": "packages/cedar/tsconfig.node.json",
+        "hash": "5327386328133862736"
+      },
+      {
+        "file": "acme/.github/workflows/ci.yml",
+        "hash": "5388836935844023194"
+      },
+      {
+        "file": "acme/package.json",
+        "hash": "11651258359974926940"
+      },
+      {
+        "file": "packages/cedar/src/Input/index.stories.tsx",
+        "hash": "5948923555190175213"
+      },
+      {
+        "file": "acme/tsconfig.base.json",
+        "hash": "8900268571896142108"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "18254910667109127392"
+      },
+      {
+        "file": "packages/cedar/tsconfig.app.json",
+        "hash": "3733050349265249741"
+      },
+      {
+        "file": "generators/example-component/turborepo.generators",
+        "hash": "1298504399550050287"
+      },
+      {
+        "file": "acme/.vscode/extensions.json",
+        "hash": "4134969992917317260"
+      },
+      {
+        "file": "acme/.npmrc",
+        "hash": "1880664178033616490"
+      },
+      {
+        "file": ".changeset/tiny-clubs-know.md",
+        "hash": "12600146881896431253"
+      },
+      {
+        "file": "generators/example-component/src/index.ts",
+        "hash": "7344136357698334115"
+      },
+      {
+        "file": ".changeset/README.md",
+        "hash": "4888845876018830777"
+      },
+      {
+        "file": ".husky/pre-commit",
+        "hash": "8707101287059939342"
+      },
+      {
+        "file": "packages/cedar/tsconfig.json",
+        "hash": "3493515584082783771"
+      },
+      {
+        "file": "lib/eslint-config/package.json",
+        "hash": "15367180737920522226"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "2148995112966596292"
+      },
+      {
+        "file": ".changeset/config.json",
+        "hash": "14420329772283355790"
+      },
+      {
+        "file": "generators/example-component/src/index.css",
+        "hash": "447870771199364143"
+      },
+      {
+        "file": "lib/typescript-config/package.json",
+        "hash": "6496243902998898161"
+      },
+      {
+        "file": "generators/templates/component/src/index-css.hbs",
+        "hash": "447870771199364143"
+      },
+      {
+        "file": "packages/cedar/README.md",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "generators/templates/component/src/index-ts.hbs",
+        "hash": "7344136357698334115"
+      },
+      {
+        "file": "packages/cedar/src/index.ts",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "packages/cedar/vite.config.ts",
+        "hash": "7890237328823880753"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "9309248275125596421"
+      },
+      {
+        "file": "packages/cedar/src/Input/Input.spec.tsx",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "setup.ts",
+        "hash": "15609222934882586652"
+      },
+      {
+        "file": "generators/templates/component/vite-config-json.hbs",
+        "hash": "10383691610516705002"
+      },
+      {
+        "file": "acme/nx.json",
+        "hash": "3787289620558491731"
+      },
+      {
+        "file": "biome.json",
+        "hash": "4050050105826387684"
+      },
+      {
+        "file": "generators/templates/component/package-json.hbs",
+        "hash": "11647089372725074042"
+      },
+      {
+        "file": "lib/typescript-config/base.json",
+        "hash": "13645823201323368972"
+      },
+      {
+        "file": "generators/example-component/tsconfig.node.json",
+        "hash": "17728556736132208580"
+      },
+      {
+        "file": "generators/plopfile.mjs",
+        "hash": "1633310786422477870"
+      },
+      {
+        "file": "packages/cedar/src/Input/Input.tsx",
+        "hash": "17457855979065757554"
+      },
+      {
+        "file": "generators/example-component/tsconfig.json",
+        "hash": "4060938312263923939"
+      },
+      {
+        "file": "acme/pnpm-lock.yaml",
+        "hash": "17893239018320000630"
+      },
+      {
+        "file": "lib/eslint-config/tsconfig.json",
+        "hash": "5837198014871526639"
+      },
+      {
+        "file": "nx.json",
+        "hash": "12008826177141281618"
+      },
+      {
+        "file": "acme/README.md",
+        "hash": "12550153856336895837"
+      },
+      {
+        "file": "generators/example-component/src/vite-env.d.ts",
+        "hash": "17384692600866213838"
+      },
+      {
+        "file": "generators/templates/component/tsconfig-node-json.hbs",
+        "hash": "17728556736132208580"
+      },
+      {
+        "file": "acme/.prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": "generators/templates/turborepo-generators.hbs",
+        "hash": "1298504399550050287"
+      },
+      {
+        "file": "acme/tsconfig.json",
+        "hash": "1379983966652230747"
+      },
+      {
+        "file": "turbo.json",
+        "hash": "14318785927313483763"
+      },
+      {
+        "file": "packages/cedar/src/Input/index.css",
+        "hash": "5644881507391387562"
+      },
+      {
+        "file": "generators/templates/component/src/vite-env-d-ts.hbs",
+        "hash": "17384692600866213838"
+      },
+      {
+        "file": "packages/cedar/package.json",
+        "hash": "2074882394354298324"
+      },
+      {
+        "file": "acme/pnpm-workspace.yaml",
+        "hash": "11096538227519865400"
+      },
+      {
+        "file": "packages/cedar/src/index.test.ts",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "generators/example-component/index.html",
+        "hash": "2014875241986147741"
+      },
+      {
+        "file": "packages/cedar/src/Input/Input.stories..ts.md",
+        "hash": "13319729188348021367"
+      },
+      {
+        "file": "lib/eslint-config/eslint.config.ts",
+        "hash": "2307184426357740556"
+      },
+      {
+        "file": "acme/packages/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "packages/cedar/src/Input/index.ts",
+        "hash": "15949424799552382905"
+      },
+      {
+        "file": "generators/templates/component/index-html.hbs",
+        "hash": "2014875241986147741"
+      },
+      {
+        "file": "acme/.gitignore",
+        "hash": "18435103667633526488"
+      },
+      {
+        "file": "generators/templates/component/tsconfig-json.hbs",
+        "hash": "4060938312263923939"
+      },
+      {
+        "file": "LICENSE",
+        "hash": "13680911377265918543"
+      },
+      {
+        "file": "generators/example-component/vite-config-json.hbs",
+        "hash": "10383691610516705002"
+      },
+      {
+        "file": "lib/eslint-config/index.ts",
+        "hash": "7390438864992610331"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "10147582758090254599"
+      },
+      {
+        "file": "acme/.prettierignore",
+        "hash": "14688272390704683536"
+      }
+    ],
+    "projectFileMap": {}
+  }
+}
