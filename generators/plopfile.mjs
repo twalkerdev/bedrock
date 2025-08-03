@@ -1,14 +1,13 @@
 import { join, resolve } from 'node:path';
 
 const curPath = resolve(import.meta.dirname);
-const srcPath = join(import.meta.dirname, '/src');
+// const srcPath = join(import.meta.dirname, '/src');
 
 const prevPath = join('../', 'packages/components');
-const componentDir = join(prevPath, '/{{dashCase name}}');
-const componentSrcDir = join(prevPath, '/{{dashCase name}}/src');
+// const componentDir = join(prevPath, '/{{dashCase name}}');
+// const componentSrcDir = join(prevPath, '/{{dashCase name}}/src');
 
 export function generator(plop) {
-  plop.setDefaultInclude({ generators: true, helpers: true, partials: true });
   plop.setGenerator('new-component', {
     prompts: [
       {
