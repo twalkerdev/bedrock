@@ -1,6 +1,6 @@
 {
-	"type": "commonjs",
-	"devDependencies": {
-		"plop": "^4.0.1"
-	}
+  "type": "module",
+  "devDependencies": {
+    "plop": "^4.0.1"
+  }
 }
